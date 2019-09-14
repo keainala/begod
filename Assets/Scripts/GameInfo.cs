@@ -21,8 +21,11 @@ public class GameInfo : MonoBehaviour
 /// </summary>
 public enum GameState
 {
-    Idle,
-    SelectSkill,
-    UseSkill,
-    WaitSkill,
+    Idle,           //空闲
+    SelectSkill,    //选择技能
+    UseSkill,       //释放技能
+    WaitSkill,      //队列进行
+    FightStart,     //战斗开始
+    FightEnd,       //战斗结束
+    ShowTime,       //技能展示时间
 }
